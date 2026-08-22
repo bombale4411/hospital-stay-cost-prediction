@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Load saved model
-model = joblib.load("Hospital_cost_model.pkl")
+model = joblib.load("Hospital_Cost_Model.pkl")
 feature_columns = joblib.load("feature_columns.pkl")
 
 # Title
